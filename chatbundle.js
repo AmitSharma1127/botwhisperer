@@ -1,3 +1,5 @@
+    alert('chatbubble.js');
+
 function initializeChatBubble() {
     const showChatUI = false;
     const showBubble = true;
@@ -6,7 +8,6 @@ function initializeChatBubble() {
     const chatbotId = urlParams.get('id'); // Fetch the chatbotId from the query parameters
     const srcURL = 'http://localhost:3000/iframe-widget?id=' + chatbotId;
 
-    alert('chatbubble.js');
     
     const setShowChatUI = (value) => {
         showChatUI = value;
